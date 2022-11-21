@@ -1,1 +1,11 @@
+/* use transition property to make a color change transition when hovering over the button */
+/* add cornflowerblue and ghostwhite to button when hovering */
 
+.transform {
+    transition-duration: 1s;
+}
+
+.transform:hover {
+    background-color: cornflowerblue;
+    color: ghostwhite;
+}

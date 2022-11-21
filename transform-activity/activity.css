@@ -1,3 +1,27 @@
-main {
+/* add a transform rule and obtain look of image */
+/* font first probably easiest to figure out */
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font: bolder;
+}
+
+/* add main tag and transform rule */
+
+main {
+    background-color: mediumaquamarine;
+    height: 90vh;
+    width: 100vh;
+    margin: auto;
+    transform: skew(-10deg) rotate(-10deg);
+    display: flex;
+    align-items: center;
+}
+/* div css  */
+main > div {
+    width: 40%;
+    margin: auto;
+    padding: 10%;
 }
